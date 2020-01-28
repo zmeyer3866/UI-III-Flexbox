@@ -64,3 +64,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.navigation a {
+    padding-left: 30px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 20px 0;
+}
+
+#navbar {
+    vertical-align: middle;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+#navlogo {
+    vertical-align: middle;
+    margin-left: 75%;
+    margin-left: 80%;
+    position: relative;
+    bottom: 25px;
+}
+
+/* Nav Code ends here*/ 
+
+#action {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#innovate {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#title {
+    text-align: center;
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+#square {
+    border-radius: 20px;
+    height: 25px;
+}
+
+#square:hover {
+    color: skyblue;
+    background-color: white;
+}
+
+#innovateimg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    padding-left: 50px;
+}
+
+/* Action complete, starting wrap code */
+
+.upper-wrap{
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#feats, #About {
+    display: inline-block;
+    width: 30%;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.middle-img {
+    text-align: center;
+    width: 100%;
+}
+/* Upper wrap complete, start lower wrap*/
+
+.lowwrap{
+    width: 100%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#services, #product, #vision{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+} 
+/* lowwrap completed, beginning legal area*/
+
+#legal {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 85px;
+}
+
+/* Services*/
+
+.service-header-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+div.wrap-one{
+    display: flex;
+    padding: 50px 20px;
+    flex-flow: row nowrap;
+}
+
+div.wrap-two-service section {
+    background-color: rgba(204, 204, 204, 0.4);
+    border: 5px solid rgba(169, 169, 169, 0.418);
+    margin: 0 10px;
+    padding: 20px;
+}
+
+div.facts {
+    display: flex;
+    padding: 50px 0;
+}
+
+div.service-text {
+    width: 50%;
+    padding: 25px;
+}
+
+div.service-info-img {
+    width: 50%;
+}
+
+footer.service-footer {
+    text-align: center;
+}
+
+section.button.button {
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    margin: 20px 0;
+}
